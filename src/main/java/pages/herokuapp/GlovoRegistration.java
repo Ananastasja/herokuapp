@@ -1,15 +1,13 @@
-package pages;
+package pages.herokuapp;
 
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
-import org.openqa.selenium.By;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.Select;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.page;
-import static pages.Commons.BASE_URL_GLOVO;
+import static pages.herokuapp.Commons.BASE_URL_GLOVO;
 
 public class GlovoRegistration {
     private static final String GLOVO_URL = BASE_URL_GLOVO + "/Partners";

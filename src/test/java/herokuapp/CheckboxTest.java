@@ -1,13 +1,11 @@
 package herokuapp;
 
 import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.Test;
-import pages.CheckboxesPage;
-import pages.ResetPasswordPage;
+import pages.herokuapp.CheckboxesPage;
 
 import static com.codeborne.selenide.Selenide.open;
-import static pages.Commons.BASE_URL;
+import static pages.herokuapp.Commons.BASE_URL;
 
 public class CheckboxTest {
     @Test

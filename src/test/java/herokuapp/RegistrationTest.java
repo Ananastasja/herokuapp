@@ -2,15 +2,12 @@ package herokuapp;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import pages.GlovoRegistration;
-import pages.GlovoSecondPage;
-import pages.ResetPasswordPage;
+import pages.herokuapp.GlovoRegistration;
+import pages.herokuapp.GlovoSecondPage;
 
 import static com.codeborne.selenide.Condition.exist;
-import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.open;
-import static pages.Commons.BASE_URL;
-import static pages.Commons.BASE_URL_GLOVO;
+import static pages.herokuapp.Commons.BASE_URL_GLOVO;
 
 public class RegistrationTest {
     GlovoRegistration glovoRegistration;

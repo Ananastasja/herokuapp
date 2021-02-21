@@ -1,12 +1,11 @@
 package herokuapp;
 
 import org.junit.jupiter.api.Test;
-import pages.HorizontalSlider;
-import pages.ResetPasswordPage;
+import pages.herokuapp.HorizontalSlider;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.open;
-import static pages.Commons.BASE_URL;
+import static pages.herokuapp.Commons.BASE_URL;
 
 public class HorizontalSliderTest {
     @Test
