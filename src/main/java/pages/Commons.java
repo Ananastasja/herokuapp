@@ -7,4 +7,5 @@ package pages;
 public class Commons {
 
     public static final String BASE_URL = "http://the-internet.herokuapp.com";
+    public static final String BASE_URL_GLOVO = "https://cloud.partner.glovoapp.com/";
 }
