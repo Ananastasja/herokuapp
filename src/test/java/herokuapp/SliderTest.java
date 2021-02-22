@@ -2,9 +2,9 @@ package herokuapp;
 
 
 import org.testng.annotations.Test;
-import pages.SliderPage;
+import pages.herokuapp.SliderPage;
 
-import static pages.Commons.BASE_URL;
+import static pages.herokuapp.Commons.BASE_URL;
 import static com.codeborne.selenide.Selenide.open;
 
 public class SliderTest {
