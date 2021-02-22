@@ -15,7 +15,8 @@ public class BaseTest {
 
     @BeforeTest
     public void setupGrid() throws MalformedURLException {
-        System.setProperty("selenide.remote", "http://192.168.178.38:4444/wd/hub");
-        Configuration.browser = "safari";
+        System.setProperty("selenide.remote", "http://192.168.178.21:4444/wd/hub");
+        System.setProperty("webdriver.chrome.driver","/chromedriver.exe");
+        Configuration.browser = "chrome";
     }
 }
